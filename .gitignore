@@ -1,0 +1,14 @@
+# intellij
+.idea
+*.iml
+
+# sbt
+.bsp
+target
+
+# python
+scripts/python/.python-version
+__pycache__
+
+# macos
+.DS_Store

@@ -1,0 +1,2 @@
+# cleanup ambari agent log
+0 2 * * * <sudoer> sudo /<script_directory>/cleanup-ambari-agent-log.sh >> /<script_directory>/logs/cleanup-ambari-agent-logs.log 2>&1

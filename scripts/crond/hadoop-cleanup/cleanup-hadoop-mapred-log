@@ -1,0 +1,2 @@
+# cleanup hadoop mapred logs
+15 2 * * * <sudoer> sudo /<script_directory>/cleanup-hadoop-mapred-log.sh >> /<script_directory>/logs/cleanup-hadoop-mapred-logs.log 2>&1

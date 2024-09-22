@@ -1,0 +1,2 @@
+# cleanup ambari-metrics-collector log
+5 2 * * * <sudoer> sudo /<script_directory>/cleanup-ambari-metrics-collector-log.sh >> /<script_directory>/logs/cleanup-ambari-metrics-collector-logs.log 2>&1

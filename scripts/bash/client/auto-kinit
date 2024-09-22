@@ -1,0 +1,8 @@
+#!/usr/bin/expect
+
+ACCOUNT=$1
+PASSWD=$1
+spawn /usr/bin/kinit $ACCOUNT@<DOMAIN.COM>
+expect -nocase "$ACCOUNT@DOMAIN.COM's password:"
+send "$PASSWD\r"
+interact

@@ -1,0 +1,2 @@
+# cleanup hadoop log
+10 2 * * * <sudoer> sudo /<script_directory>/cleanup-hadoop-log.sh >> /<script_directory>/logs/cleanup-hadoop-logs.log 2>&1

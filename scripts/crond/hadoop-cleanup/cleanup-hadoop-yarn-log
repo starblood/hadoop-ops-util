@@ -1,0 +1,2 @@
+# cleanup hadoop-yarn log
+20 2 * * * <sudoer> sudo /<script_directory>/cleanup-hadoop-yarn-log.sh >> /<script_directory>/logs/cleanup-hadoop-yarn-logs.log 2>&1
